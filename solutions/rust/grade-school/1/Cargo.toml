@@ -1,0 +1,10 @@
+[package]
+edition = "2021"
+name = "grade-school"
+version = "0.0.0"
+
+[lints.clippy]
+new_without_default = "allow"
+
+[dependencies]
+itertools = "0.12.1"
